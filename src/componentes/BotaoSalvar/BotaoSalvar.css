@@ -1,0 +1,9 @@
+.botao {
+    background-color:var(--cor-primaria)!important;
+    color: var(--cor-secundaria)!important;
+    border-color: var(--cor-primaria)!important;
+}
+
+.botao:hover {
+    color: var(--cor-hover)!important;
+}
