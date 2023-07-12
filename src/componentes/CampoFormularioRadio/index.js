@@ -1,5 +1,5 @@
 
-export default function AreaAtuacao ({ tituloCampo, register, nome, erro, options, className }) {
+export default function CampoFormularioRadio ({ tituloCampo, register, nome, erro, options, className }) {
   return (
     <div className="row mb-2">
       <label className="col-sm-2 col-form-label required">{tituloCampo}</label>
