@@ -34,7 +34,7 @@ export default function CadastroDeUsuarios() {
             .min(6, "Mínimo 3 caracteres"),
         senha: z.string()
             .nonempty("Campo obrigatório")
-            .min(6, "Mínimo de 6 caracteres"),
+            .min(6, "Mínimo 6 caracteres"),
         confirmarSenha: z.string()
             .nonempty("Campo obrigatório"),
         sexo: z.string()
